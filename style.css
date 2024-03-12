@@ -10,13 +10,13 @@ body {
 header {content: horzontal center;}
 footer {content: horzontal center;}
 /* Set the font family for any h1, h2, or h3 heading */
-h1,{font-family: "Playfair Display", Times, serif;}
-h2,{font-family: "Playfair Display", Times, serif;}
+h1,{font-family: "Playfair Display", Times, serif;
+   text-align: center;}
+h2,{font-family: "Playfair Display", Times, serif;
+   text-align: center;}
 h3 {
-  font-family: "Playfair Display", Times, serif;
+  font-family: "Playfair Display", Times, serif; text-align: center;
 }
-h2 { content: hoizonal center;}
-h3 { content: hoizonal center;}
 article {
   padding: 50px 0;
 }
@@ -26,12 +26,12 @@ article div {
   width: 100%;
 }
 
-p { content: hoizonal center; 
+p { content: center; 
   line-height: 1.5;
 }
 
 /* The div container constrains the content width within the main container to 600px */
-div { text-align: hoizonal center;
+div { text-align: horizonal center;
   margin: auto;
   width: 600px;
 }
@@ -56,3 +56,4 @@ a { margin-left: 5px;
   color:#d62828;}
 a:link { color:#d62828;}
 a:hover { color:#f77f00;}
+.center {text-align: center;}
